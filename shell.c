@@ -58,7 +58,7 @@ int main(void)
         }
         else if (pid == 0)
         {
-            // Child process
+            // Child process. 
             execute_command(tokens);
             exit(EXIT_SUCCESS);
         }
